@@ -1,0 +1,32 @@
+.app {
+    margin: 50px 0 0 30px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px #0000001a;
+    overflow: hidden;
+}
+.task {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    justify-content: space-between;
+    &:hover {
+        background-color: #04395e3d;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 0;
+        color: var(--text);
+    }
+}
+.action_btn {
+    cursor: pointer;
+}
+.task-done {
+    background-color: #00000027;
+    p {
+        color: #00000050;
+    }
+}
